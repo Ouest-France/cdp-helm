@@ -1,6 +1,6 @@
-FROM ouestfrance/cdp-kubectl:1.6.7
+FROM ouestfrance/cdp-kubectl:1.9.7
 
-ARG HELM_VERSION="v2.8.2"
+ARG HELM_VERSION="v2.9.1"
 
 RUN apk --update add tar gzip && \
     curl -L https://storage.googleapis.com/kubernetes-helm/helm-${HELM_VERSION}-linux-amd64.tar.gz | tar zxv -C /bin/ --strip-components=1 linux-amd64/helm && \
