@@ -1,4 +1,4 @@
-FROM ouestfrance/cdp-kubectl:1.9.7
+FROM ouestfrance/cdp-kubectl:1.9.9
 
 ARG HELM_VERSION="v2.9.1"
 
