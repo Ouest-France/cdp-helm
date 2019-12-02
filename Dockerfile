@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.10.3
 
 ARG HELM_VERSION="v2.15.2"
 
