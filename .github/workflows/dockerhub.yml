@@ -7,9 +7,9 @@ on:
        - 'v**'
   release:
      types: [published,released] 
+env:
+  IMAGE_PREFIX: ouestfrance/cdp-helm
 jobs:
-  env:
-    IMAGE_PREFIX: ouestfrance/cdp-helm
   build:
     name: Build
     runs-on: ubuntu-latest
